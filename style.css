@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./images/travel-background-image.jpg");
+    background-size: cover;
+    box-shadow: inset 20px -20px 200px 0px rgb(36, 163, 150);
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+#menu{
+    margin-top: 10px;
+}
+#menu ul li{
+    list-style: none;
+    padding: 0 20px;
+    display: inline;
+}
+#menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#navbar-search{
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+#navbar-search ul li{
+    display:inline;
+}
+
+#navbar-search ul li input{
+    border:none;
+}
+
+
+button{
+    padding: 5px 10px;
+    background-color: navy;
+    color: white;
+    border:none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#social-buttons{
+    position: absolute;
+      left: 10px;
+      top: 280px;
+      display: flex;
+      flex-direction: column;
+}
+
+#social-buttons a{
+    margin: 20px 0;
+}
+
+hr{
+    height: 3px;
+    width: 200px;
+    background-color: white;
+    rotate: 90deg;
+    /* margin-bottom: 30px; */
+    position: absolute;
+    left: -80;
+    top: 170;
+}
+
+
+#main h1,#main h2{
+    font-size: 56px;
+}
+
+#main{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+}
+
+#main div{
+    width: 50%;
+}
+
+#contact-heading{
+    margin-top: 50px;
+}
+form label{
+    font-weight: bold;
+}
+form input{
+    width: 100%;
+    background-color: transparent;
+    border:1px solid black;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#submit{
+    width: 100%;
+}
+
+/*  About us page  */
+
+
+#main2{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+#section-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.team{
+    display: flex;
+    flex-direction: row;
+}
+
+.team * img{
+    margin-right: 10px;
+}
+
+.designation{
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 100% !important;
+}
+.destination-heading{
+    color: black;
+    margin: 10px;
+}
+.destination-description{
+    color: grey;
+    margin: 10px;
+}
